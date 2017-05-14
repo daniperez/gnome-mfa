@@ -16,11 +16,11 @@ By default the tokens are read from ```~/.config/gnome-mfa/mfa.txt```.
 The format is as follows:
 
 ```
-Title 1, seed 1, icon char 1
-Title 2, seed 2, icon char 2
+Title 1, seed 1, icon 1
+Title 2, seed 2, icon 2
 ...
 ```
 
 The title can be anything and can include some mark-up (```<b>```, ```<i>```... check
 Argos' documentation). The seed is the TOTP seed (HOTP not implemented yet) and the icon
-can be any character, including emojis (check Argos' documentation).
+can be any string, including emojis (check Argos' documentation).
