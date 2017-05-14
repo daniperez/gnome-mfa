@@ -6,6 +6,8 @@ for Gnome.
 
 ![mfa](mfa.png)
 
+The red number is the expiration time for the tokens in seconds.
+
 ## Installation
 
 ### Dependencies
