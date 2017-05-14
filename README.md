@@ -26,5 +26,5 @@ Title 2, seed 2, icon name 2
 The title can be anything and can include some mark-up (```<b>```, ```<i>```... check
 Argos' documentation). The seed is the TOTP seed (HOTP not implemented yet) and the icon
 is the name of an icon as provided by GNOME ([link missing]). For example, for the picture
-above the icon names are mail-mark-unread, weather-overcast and calc.
+above uses the icon names "mail-mark-unread", "weather-overcast" and "calc".
 
