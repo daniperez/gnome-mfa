@@ -12,7 +12,6 @@ for Gnome.
 * [xclip](https://github.com/astrand/xclip) (included in most distros)
 
 Copy ```mfa.5s.sh``` to ```~/.config/argos```. 
-If you keep the "5s" in the script name, it is updated every 5 seconds.
 By default the tokens are read from ```~/.config/gnome-mfa/mfa.txt```.
 The format is as follows:
 
