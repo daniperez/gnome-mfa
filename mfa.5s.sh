@@ -66,10 +66,9 @@ function show {
  SECRET="$(oathtool --totp $SEED)"
  ICON="$3"
 
- printf "%s " $ICON
  printf "<b>%-20s</b>" $TITLE
  printf "%s" $SECRET
- echo " | $(enable_copy_paste $SECRET) refresh=true"
+ echo " | $(enable_copy_paste $SECRET) refresh=true iconName=$ICON"
 }
 
 if check_secrets "$SECRETS_FILE"; then
