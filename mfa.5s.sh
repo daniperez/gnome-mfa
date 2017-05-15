@@ -63,7 +63,7 @@ function show {
 
  TITLE="$1"
  SEED="$2"
- SECRET="$(oathtool --totp $SEED)"
+ SECRET="$(oathtool --totp -b $SEED)"
  ICON="$3"
 
  printf "<b>%-20s</b>" $TITLE
