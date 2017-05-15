@@ -8,6 +8,8 @@ for Gnome.
 
 The red number is the expiration time for the tokens in seconds.
 
+If you click any entry, the code is copied to the clipboard.
+
 ## Installation
 
 ### Dependencies
