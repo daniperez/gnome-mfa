@@ -30,7 +30,7 @@ Argos' documentation). The seed is the TOTP seed (HOTP not implemented yet) and 
 is the name of an icon as provided by Gnome ([link missing]). In the picture
 above the icon names are "mail-mark-unread", "weather-overcast" and "calc".
 
-Only numeric seeds are implemented for the time being. That is, keys like
-```gr6d 5br7 25s6 vnck v4vl hlao re ``` are **not implemented yet**.
+Seeds look like ```gr6d 5br7 25s6 vnck v4vl hlao re```. Only base32 seeds are implemented
+for the time being since they are the most common in online services.
 
 
