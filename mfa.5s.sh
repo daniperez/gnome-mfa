@@ -66,7 +66,7 @@ function show {
  SECRET="$(oathtool --totp -b $SEED)"
  ICON="$3"
 
- printf "<b>%-20s</b>" $TITLE
+ printf "<b>%-20s</b>:" $TITLE
  printf "%s" $SECRET
  echo " | $(enable_copy_paste $SECRET) refresh=true iconName=$ICON"
 }
