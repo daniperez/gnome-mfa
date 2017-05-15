@@ -62,11 +62,11 @@ function enable_copy_paste {
 function show {
 
  TITLE="$1"
- SEED="$2"
- SECRET="$(oathtool --totp -b $SEED)"
+ SEED="$(printf "%-32s" $(echo "$2" | sed "s/ //g"))"
+ SECRET="$(oathtool --totp -b "$SEED")"
  ICON="$3"
 
- printf "<b>%-20s</b>:" $TITLE
+ printf "<b>%-20s</b>" $TITLE
  printf "%s" $SECRET
  echo " | $(enable_copy_paste $SECRET) refresh=true iconName=$ICON"
 }
