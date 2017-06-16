@@ -19,18 +19,25 @@ Copy ```mfa.5s.sh``` to ```~/.config/argos```.
 
 ## Configuration
 By default the tokens are read from ```~/.config/gnome-mfa/mfa.txt```.
-The format is as follows:
+The configuration for the screenshot above is as follows:
+```
+Gmail, gr6d 5br7 25s6 vnck v4vl hlao re, mail-mark-unread
+Dropbox, ABC5DR789AB3D1B3BCD1ABAB23, weather-overcast
+Bank, ba12 1234 126a cdef 5431 1a, calc
+```
+
+The format is:
 
 ```
 Title 1, seed 1, icon name 1
 Title 2, seed 2, icon name 2
 ...
 ```
+
 * **Title**: it can be anything and can include some mark-up (```<b>```, ```<i>```... check
 Argos' documentation). 
-* **Seed**: TOTP seed (HOTP not implemented yet). They look like ```gr6d 5br7 25s6 vnck v4vl hlao re```. Only base32 seeds are implemented for the time being since they are the most common.
-* **Icon name**: name of an icon as provided by Gnome ([see here](https://developer.gnome.org/icon-naming-spec/#names)). In the picture
-above the icon names are "mail-mark-unread", "weather-overcast" and "calc" respectively.
+* **Seed**: TOTP seed (HOTP not implemented yet). Only base32 seeds are implemented for the time being since they are the most common.
+* **Icon name**: name of a Gnome icon ([see here](https://developer.gnome.org/icon-naming-spec/#names)).
 
 
 
