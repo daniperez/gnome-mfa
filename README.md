@@ -37,7 +37,7 @@ Title 2, seed 2, icon name 2
 * **Title**: it can be anything and can include some mark-up (```<b>```, ```<i>```... check
 Argos' documentation). 
 * **Seed**: TOTP seed (HOTP not implemented yet). Only base32 seeds are implemented for the time being since they are the most common.
-* **Icon name**: name of a Gnome icon ([see here](https://developer.gnome.org/icon-naming-spec/#names)).
+* **Icon name**: name of a Gnome icon ([see here](https://developer.gnome.org/icon-naming-spec/#names) or execute `gtk3-icon-browser`).
 
-
+If after configuring Argos/Gnome-MFA you cannot see the key icon on the top-right corner, something is not working. Check Argos documentation about how to debug it. 
 
