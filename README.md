@@ -15,7 +15,7 @@ for Gnome.
 * [xclip](https://github.com/astrand/xclip) (included in most distros)
 
 ## Installation
-Copy ```mfa.5s.sh``` to ```~/.config/argos```. 
+Copy ```mfa.5s.sh``` to ```~/.config/argos``` and grant it execution permission (```chmod +x ~/.config/argos/mfa.5s.sh```).
 
 ## Configuration
 By default the tokens are read from ```~/.config/gnome-mfa/mfa.txt```.
